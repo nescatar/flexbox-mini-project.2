@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+body,
+h1,
+h2,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 96rem;
+
+    margin: 0 auto;
+}
+
+/*-----START UPPER-------*/
+header {
+    background-color: cadetblue;
+}
+
+.upper {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20rem;
+}
+
+.upper .logo {
+    text-align: center;
+}
+
+.upper .logo h1 {
+    letter-spacing: .5rem;
+    font-size: 5rem;
+
+}
+
+.upper .logo h2 {
+    font-style: italic;
+    font-size: 1.5rem;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul a {
+    font-size: 1.6rem;
+    margin: 1rem;
+    padding: 0.2rem;
+}
+
+.menu ul li {
+    margin: 0 .5rem;
+}
+.menu ul li:nth-of-type(1) {
+    order: -2;
+  
+}
+
+
+.menu ul a:hover {
+    color: wheat;
+}
+
+.menu li a {
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+
+/*-----FINISH UPPER-------*/
+
+/*-----START MIDDLE-------*/
+
+.mid {
+    margin-top: 3rem;
+    min-height: 1000px;
+}
+
+.bigbox img {
+    width: 100%;
+}
+
+.box {
+    flex-basis: 29rem;
+}
+
+.box h3 {
+    font-size: 2rem;
+}
+
+.box p {
+    font-size: 1.5rem;
+}
+
+.mid .mid-miniboxs {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-minibox img {
+    width: 100%;
+
+}
+.line{
+    margin:3rem 0;
+    border-top: dotted 1px black
+}
+
+.mid-undertext-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.mid-undertext-box .text  {
+    max-width: 45rem;
+    max-height: 25rem;
+
+}
+
+.mid-undertext-box .text h2 {
+    font-size: 2rem;
+}
+
+.mid-undertext-box .text p {
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    text-align: baseline;
+}
+/*-----FINISH MIDDLE-------*/
+
+/*-----START FOOTER-------*/
+    footer{
+    min-height: 10rem;
+    background-color: seagreen;
+    
+}
+
+
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:1.5rem;
+    gap: 2rem;
+    text-decoration: none;
+    list-style-type:none;
+}
+footer p{
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+    
